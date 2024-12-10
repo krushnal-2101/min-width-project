@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container{
@@ -34,4 +35,29 @@
 
 .text1{
     padding: 20px 10px 20px 10px;
+}
+.box1 a{
+    text-decoration: none;
+    padding: 8px;
+    background-color: brown;
+    border: none;
+    color:white;
+   
+}
+.text2{
+   text-align: center;
+   color: brown;
+   font-size: 25px;
+   font-weight: 550;
+   padding-top: 100px;
+}
+.sig{
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    text-align: center;
+   
+}
+.mr-20{
+    margin-right: 20px;
 }
