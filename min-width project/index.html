@@ -40,15 +40,15 @@
 
 
 <div class="container-fluid">
-<div class="slider1">
+<div class="slider1 ">
      <div class="re1">
-         <img src="/picture2/pic2.jpg" alt="" height="820px" width="100%">
+         <img src="/picture2/pic2.jpg" alt=""   width="100%" height="830px">
      </div>
      <div class="re1">
-      <img src="/picture2/pic4.jpg" alt=""  height="820px" width="100%">
+      <img src="/picture2/pic4.jpg" alt="" width="100%" height="830px" >
      </div>
      <div class="re1">
-      <img src="/picture2/pic3.jpg" alt=""  height="820px" width="100%">
+      <img src="/picture2/pic3.jpg" alt=""  width="100%" height="830px">
      </div>
 </div>
 </div>
@@ -67,8 +67,81 @@
   
 <div class="container">
     <div class="text2">About us</div>
+    <p class="p1">      
+      Since its inception in 2006, Reliance Retail has grown to become India’s largest 
+      retailer delivering superior value to its customers, suppliers and shareholders.
+       Our <br> nationwide network of retail outlets delivers a world-class shopping environment 
+        and unmatched customer experience powered by our state-of-the-art technology <br> and 
+        seamless supply-chain infrastructure. <br> <a href="" class="a2">Learn more about us</a></p>
+       
 </div>
+
+<div class="container">
+  <div class="text2 pb-40">OUR BRANDS</div>
+
+  <div class="d-flex">
+      <div class="w-4 p-10">
+        <div class="box3">
+          <img src="picture2/pic5.png" alt="" >
+          <p class="p2">Smart Bazaar</p>
+        </div>
+      </div>
+      <div class="w-4 p-10">
+        <div class="box3">
+          <img src="picture2/pic6.png" alt="" >
+          <p class="p2">Smart Superstore</p>
+        </div>
+      </div>
+      <div class="w-4 p-10">
+        <div class="box3">
+          <img src="picture2/pic7.png" alt="" >
+          <p class="p2">Neighbourhood Convenience Store</p>
+        </div>
+      </div>
+      <div class="w-4 p-10">
+        <div class="box3">
+          <img src="picture2/pic10.png "alt="" >
+          <p class="p2">Supermarket</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="text2 pb-40">DISCOUNT</div>
+  
+</div>
+
+
+<div class="container">
+  <div class="text3"></div>
+  <div class="discountpart">
+    <div class="si1"><img src="picture2/pic11.webp" alt=""></div>
+    <div class="si1"><img src="picture2/pic12.jpg" alt=""></div>
+    <div class="si1"><img src="picture2/pic13.webp" alt=""></div>
+    <div class="si1"><img src="picture2/pic14.webp" alt=""></div>
+    <div class="si1"><img src="picture2/pic15.webp" alt=""></div>
+    <div class="si1"><img src="picture2/pic16.webp" alt=""></div>
+    <div class="si1"><img src="picture2/pic19.webp" alt=""></div>
+    <div class="si1"><img src="picture2/pic18.webp" alt=""></div>
+    
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="text2 pb-40">Groceries  </div>
+  
+</div>
+
+<div class="container">
+  <div class="text4">Food</div>
+</div>
+
+
  
+
 
 
 
@@ -111,6 +184,44 @@ dots: true,
 infinite: false,
 speed: 700,
 slidesToShow: 1,
+slidesToScroll: 1,
+responsive: [
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
+});
+</script>
+
+<script>
+  $('.discountpart').slick({
+dots: true,
+infinite: false,
+speed: 300,
+slidesToShow: 3,
 slidesToScroll: 1,
 responsive: [
   {

@@ -36,6 +36,24 @@
 .text1{
     padding: 20px 10px 20px 10px;
 }
+
+.slick-next{
+    right:0px !important  ;
+    background-color: brown !important;
+    padding:10px 30px 30px  10px !important;
+    border-radius: 25px;
+}
+.slick-prev{
+    left:  -40px !important  ;
+    background-color: brown !important;
+    padding:10px 30px 30px  10px !important;
+    border-radius: 25px;
+}
+.slick-dots{
+  font-size: 25px !important;
+}
+
+
 .box1 a{
     text-decoration: none;
     padding: 8px;
@@ -47,7 +65,7 @@
 .text2{
    text-align: center;
    color: brown;
-   font-size: 25px;
+   font-size: 30px;
    font-weight: 550;
    padding-top: 100px;
 }
@@ -58,6 +76,93 @@
     text-align: center;
    
 }
+
+.p1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.596);
+    padding-top: 80px;
+}
+.a2{
+    text-align: center;
+    color: rgba(0, 0, 255, 0.493);
+    text-decoration: none;
+}
+.box3{
+   
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.box3:hover{
+ border: 2px solid brown;
+}
+.box3 img{
+   padding-left: 70px;
+   padding-top: 20px;
+}
+.p2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    padding: 20px 0px 80px 0px;
+}
+.si1 img{
+ width: 400px;
+ border-radius: 20px;
+}
+
+.text4{
+    color: brown;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p-10{
+    padding: 10px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+
 .mr-20{
     margin-right: 20px;
 }
