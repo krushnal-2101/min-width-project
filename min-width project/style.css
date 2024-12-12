@@ -108,15 +108,37 @@
  width: 400px;
  border-radius: 20px;
 }
+.img2 img{
+    border-radius: 25px;
+   margin-top: 50px;
+}
 
 .text4{
-    color: brown;
+    color: black;
     font-size: 30px;
     font-weight: 550;
     padding-top: 100px;
 }
+.box4{
+    border: 1px solid red;
+}
+.text5 a{
+    color: blue;
+    font-size: 17px;
+    text-decoration: none;
+   
+}
+.text5{
+    text-align: end;
+    padding-bottom: 80px;
+}
 
-
+.container-fluid2{
+   height: 300px;
+    background-color: rgba(0, 255, 255, 0.116);
+    width: 100%;
+    margin-top: 100px;
+}
 
 
 
@@ -166,3 +188,6 @@
 .mr-20{
     margin-right: 20px;
 }
+.pr-10{
+    margin-right: 20px;
+ }
