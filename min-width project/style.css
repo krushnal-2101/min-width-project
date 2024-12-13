@@ -18,6 +18,13 @@
     padding-left: 80px;
    
 }
+.logo  h4{
+    padding-top: 30px;
+}
+.logo  i{
+    padding-top: 30px;
+    padding-left: 20px;
+}
 .text1 a{
     text-decoration: none;
     margin: 0px 30px 0px 0px;
@@ -34,7 +41,7 @@
  }  
 
 .text1{
-    padding: 20px 10px 20px 10px;
+    padding: 28px 10px 20px 10px;
 }
 
 .slick-next{
@@ -134,10 +141,49 @@
 }
 
 .container-fluid2{
-   height: 300px;
-    background-color: rgba(0, 255, 255, 0.116);
+    background-color:rgb(0, 0, 0);
     width: 100%;
     margin-top: 100px;
+}
+.container-fluid3{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 100px;
+}
+.text6{
+    color:  white;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 20px;
+}
+.box5{
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.text7{
+    font-size: 15px ;
+    padding-top: 5px;
+}
+.text8{
+    font-weight: 550;
+    font-size: 15px;
+}
+.text9{
+    background-color: rgba(144, 238, 144, 0.295);
+    color: green;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+}
+.text10 a{
+    text-decoration: none;
+  border: 1px solid rgb(0, 183, 255);
+  text-align: center;
+  padding: 5px;
+  color: black;
+  font-size: 13px;
+  margin-top: 20px;
 }
 
 
@@ -175,8 +221,10 @@
 
 
 
-
-
+.mt-100
+{
+    margin-top: 100px;
+}
 
 .p-10{
     padding: 10px;
@@ -190,4 +238,7 @@
 }
 .pr-10{
     margin-right: 20px;
+ }
+ .p-15{
+    padding: 15px;
  }
