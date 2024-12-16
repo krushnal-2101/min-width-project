@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.logo  h4{
+    padding-top: 30px;
+}
+.logo  i{
+    padding-top: 30px;
+    padding-left: 20px;
+   
+}
+.text1 a{
+    text-decoration: none;
+    margin: 0px 30px 0px 0px;
+    color: rgba(0, 0, 0, 0.815);
+padding: 30px 10px;
+}
+.text1 a:hover{
+    background-color: red;
+    
+}
+ .text1 i{
+    background-color: brown;
+    padding: 10px;
+ }  
+
+.text1{
+    display: flex;
+   
+}
+
+.slick-next{
+    right:0px !important  ;
+    background-color: brown !important;
+    padding:10px 30px 30px  10px !important;
+    border-radius: 25px;
+}
+.slick-prev{
+    left:  -40px !important  ;
+    background-color: brown !important;
+    padding:10px 30px 30px  10px !important;
+    border-radius: 25px;
+}
+.slick-dots{
+  font-size: 25px !important;
+}
+
+
+.box1 a{
+    text-decoration: none;
+    padding: 8px;
+    background-color: brown;
+    border: none;
+    color:white;
+   
+}
+.text2{
+   text-align: center;
+   color: brown;
+   font-size: 30px;
+   font-weight: 550;
+   padding-top: 100px;
+}
+.sig{
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    text-align: center;
+   
+}
+
+.p1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.596);
+    padding-top: 80px;
+}
+.a2{
+    text-align: center;
+    color: rgba(0, 0, 255, 0.493);
+    text-decoration: none;
+}
+.box3{
+   
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.box3:hover{
+ border: 2px solid brown;
+}
+.box3 img{
+   padding-left: 70px;
+   padding-top: 20px;
+}
+.p2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    padding: 20px 0px 80px 0px;
+}
+.si1 img{
+ width: 400px;
+ border-radius: 20px;
+}
+.img2 img{
+    border-radius: 25px;
+   margin-top: 50px;
+}
+
+.text4{
+    color: black;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 100px;
+}
+.box4{
+    border: 1px solid red;
+}
+.text5 a{
+    color: blue;
+    font-size: 17px;
+    text-decoration: none;
+   
+}
+.text5{
+    text-align: end;
+    padding-bottom: 80px;
+}
+
+.container-fluid2{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 100px;
+}
+.container-fluid3{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 100px;
+}
+.text6{
+    color:  white;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 20px;
+}
+.box5{
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.text7{
+    font-size: 15px ;
+    padding-top: 5px;
+}
+.text8{
+    font-weight: 550;
+    font-size: 15px;
+}
+.text9{
+    background-color: rgba(144, 238, 144, 0.295);
+    color: green;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+}
+.text10 a{
+    text-decoration: none;
+  border: 1px solid rgb(0, 183, 255);
+  text-align: center;
+  padding: 5px;
+  color: black;
+  font-size: 13px;
+  margin-top: 20px;
+
+}
+.bt button {
+    padding: 10px;
+    background-color: azure;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+button i{
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mt-100
+{
+    margin-top: 100px;
+}
+
+.p-10{
+    padding: 10px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+.pr-10{
+    margin-right: 20px;
+ }
+ .p-15{
+    padding: 15px;
+ }
