@@ -125,9 +125,7 @@ padding: 30px 10px;
     font-weight: 550;
     padding-top: 100px;
 }
-.box4{
-    border: 1px solid red;
-}
+
 .text5 a{
     color: blue;
     font-size: 17px;
@@ -198,18 +196,65 @@ button i{
     display: flex;
     
 }
+.im-1 img{
+    border-radius: 20px;
+    margin-top: 70px;
+   overflow: hidden;
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.vv video{ 
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+.vv{
+    overflow: hidden;
+    padding: 70px;
+}
+.bg1{
+    background-color: #f5f5f5;;
+    width: 100%;
+}
+.text11{
+    color: black;
+    font-weight: 550;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.text12 a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.692);
+     line-height: 45px;
+    font-size: 18px;
+}
+.text12 a:hover{
+    background-color: rgba(128, 128, 128, 0.24);
+    padding: 10px 100px 10px 0px;
+}
+.text12{
+    padding: 30px 0px 50px 0px;
+}
+.text13{
+    color: black;
+    font-weight: 850;
+    font-size: 28px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.text14{
+    color:rgba(0, 0, 0, 0.692);
+   
+}
+.text15{
+    color:rgba(0, 0, 0, 0.692);
+    line-height: 22px;
+    padding-top: 30px;
+}
+.sem{
+    font-size: 40px; padding: 20px;
+}
 
 
 
