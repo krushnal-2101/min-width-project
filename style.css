@@ -27,7 +27,7 @@
     text-decoration: none;
     margin: 0px 30px 0px 0px;
     color: rgba(0, 0, 0, 0.815);
-padding: 30px 10px;
+   padding: 30px 10px;
 }
 .text1 a:hover{
     background-color: red;
@@ -181,7 +181,16 @@ padding: 30px 10px;
   color: black;
   font-size: 13px;
   margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 255, 255, 0.37);
 
+}
+.text10 a:hover{
+ color: white;
+ background-color: black;
+}
+.text10{
+    margin-top: 10px;
 }
 .bt button {
     padding: 10px;
@@ -189,8 +198,6 @@ padding: 30px 10px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    
-
 }
 button i{
     display: flex;
@@ -206,12 +213,12 @@ button i{
 .vv video{ 
     height: 400px;
     border-radius: 20px;
-    overflow: hidden;
     margin-right: 40px;
+   
 }
 .vv{
-    overflow: hidden;
-    padding: 70px;
+   padding:70px 0px 0px 5px ;
+    margin: auto;
 }
 .bg1{
     background-color: #f5f5f5;;

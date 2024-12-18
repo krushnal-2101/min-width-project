@@ -84,7 +84,9 @@
     
     .text1{
         flex-direction: row;
+       
     }
+    
     
 }
 @media(min-width:1200px){
@@ -101,5 +103,11 @@
         width: 25%;
     }
    
+   .w-xl-5{
+    width: 20%;
+   }
+   .w-xl-6{
+     width: 16%;
+   }
    
 }
