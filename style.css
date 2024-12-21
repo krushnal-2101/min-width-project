@@ -63,7 +63,9 @@
   font-size: 25px !important;
 }
 
-
+.box h4:hover{
+    color: red;
+}
 .box1 a{
     text-decoration: none;
     padding: 8px;
@@ -98,14 +100,13 @@
     text-decoration: none;
 }
 .box3{
-   
+   text-align: center;
     background-color: rgba(128, 128, 128, 0.096);
 }
 .box3:hover{
  border: 2px solid brown;
 }
 .box3 img{
-   padding-left: 70px;
    padding-top: 20px;
 }
 .p2{
@@ -247,6 +248,8 @@ button i{
 }
 .text12{
     padding: 30px 0px 50px 0px;
+ 
+  
 }
 .text13{
     color: black;
@@ -257,7 +260,9 @@ button i{
 }
 .text14{
     color:rgba(0, 0, 0, 0.692);
-   
+}
+.text14 a:hover{
+    color: red;
 }
 .text15{
     color:rgba(0, 0, 0, 0.692);
@@ -274,24 +279,22 @@ button i{
 
 .box6 input{
     padding: 13px 150px 13px 5px;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.733);
+    border: 1px solid black;
     border-radius: 5px;
+    
    
 }
 .box6 p{
     display: inline-block;
-    font-size: 30px;
-    font-weight: 550; 
+    font-size: 25px;
     padding-top:20px;
      color: black;
 }
 .p3{
     display: inline-block;
-    font-size: 30px;
-    font-weight: 550; 
-  
-    margin-right:117px;
+    font-size: 25px;
+    margin-right:85px;
+    
 }
 .box6 a{
     text-decoration: none;
@@ -313,7 +316,7 @@ button i{
 }
 .container-fluid4{
     background-color: black;
-    height: 100px;
+    height: 130px;   
 }
 .text16{
     color: white;
@@ -337,12 +340,16 @@ button i{
     
 }
 
+
 .justify-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.winter{
+   display: flex;
+   justify-content: center;
+}
 
 
 
